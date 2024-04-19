@@ -13,5 +13,7 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-button routerLink="/tabs/tab1/subpage">Link to subpage1 - routerlink</ion-button>
+<ion-button (click)='subpage()'>Link to subpage1 - navigatebyURL</ion-button>
+<ion-button (click)='subpage2()'>Link to subpage2 - navigatebyURL</ion-button>
 </ion-content>
